@@ -4,6 +4,9 @@ There are 2 flavors:
  - Environement Credentials (Based on Service Principal login)
  - Default Credentials Based on CLI lgin)
 
+#Prerequisites for Azure Bastion Service:
+Enable Log on Azure Bastion Service (Through "Diagnostic Settings" in the Azure Bastion menu)
+
 #Prerequisites for Environement Credentials
 #Pre-requisites to create the environement variables env.text in the same folder as the notebook
 #Example of content in env.txt
@@ -12,4 +15,4 @@ vzpoc_AZURE_CLIENT_ID = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
 vzpoc_AZURE_CLIENT_SECRET = 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'
 vzpoc_AZURE_WORKSPACE_ID = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 
-Note: the Environement Credential script is not using the Microsoft Azure Python SDK
+Note: the Pyhon environement shall load the Microsoft Azure Python SDK
