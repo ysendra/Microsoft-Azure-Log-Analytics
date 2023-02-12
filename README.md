@@ -11,6 +11,7 @@ There are two implementation flavors:
  - Create the environment variables "env.text" in the same folder as the notebook 
 
 #Example of content in env.txt 
+
 vzpoc_AZURE_TENANT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 vzpoc_AZURE_CLIENT_ID = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
