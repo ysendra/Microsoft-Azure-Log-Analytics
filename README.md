@@ -11,9 +11,12 @@ There are two implementation flavors:
  - Create the environment variables "env.text" in the same folder as the notebook 
 
 #Example of content in env.txt 
-vzpoc_AZURE_TENANT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'\n
-vzpoc_AZURE_CLIENT_ID = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'\n
-vzpoc_AZURE_CLIENT_SECRET = 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'\n
-vzpoc_AZURE_WORKSPACE_ID = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'\n
+vzpoc_AZURE_TENANT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+
+vzpoc_AZURE_CLIENT_ID = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
+
+vzpoc_AZURE_CLIENT_SECRET = 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'
+
+vzpoc_AZURE_WORKSPACE_ID = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 
 Note: the Python environment shall load the Microsoft Azure Python SDK
