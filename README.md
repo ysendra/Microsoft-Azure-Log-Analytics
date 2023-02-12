@@ -1,18 +1,19 @@
 # Microsoft-Azure-Log-Analytics
-This Python script is made to access Microsoft Azure Log analytics to collec Azure Bastion Service log and create a grapgh based on some inputs (environement, Startign & Ending Dates
-There are 2 flavors:
- - Environement Credentials (Based on Service Principal login)
- - Default Credentials Based on CLI lgin)
+These Python scripts are made to access Microsoft Azure Log analytics to collect Azure Bastion Service logs and create a graph based on some inputs (Environment type (Lab or Production), Starting & Ending Dates)
+There are two implementation flavors:
+ - Environment Credentials: Based on Service Principal login
+ - Default Credentials: Based on CLI login
 
-#Prerequisites for Azure Bastion Service:
-Enable Log on Azure Bastion Service (Through "Diagnostic Settings" in the Azure Bastion menu)
+#Prerequisites for Azure Bastion Service: 
+ - Enable Logs on Azure Bastion Service (Through "Diagnostic Settings" in the Azure Bastion menu)
 
-#Prerequisites for Environement Credentials
-#Pre-requisites to create the environement variables env.text in the same folder as the notebook
-#Example of content in env.txt
+#Prerequisites for Environment Credentials 
+ - Create the environment variables "env.text" in the same folder as the notebook 
+
+#Example of content in env.txt 
 vzpoc_AZURE_TENANT_ID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 vzpoc_AZURE_CLIENT_ID = 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'
 vzpoc_AZURE_CLIENT_SECRET = 'zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz'
 vzpoc_AZURE_WORKSPACE_ID = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 
-Note: the Pyhon environement shall load the Microsoft Azure Python SDK
+Note: the Python environment shall load the Microsoft Azure Python SDK
